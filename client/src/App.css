@@ -1,0 +1,12 @@
+.App {
+  background-color: black;
+  text-align: center;
+  height: 95vh;
+  margin: 20px; /* Small margin around the page */
+  border: 20px double #ffa500; /* Border around the page */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Optional: if you want to stack items vertically */
+}
