@@ -1,12 +1,38 @@
+@keyframes borderPulse {
+  0% {
+    border-color: #ffffff;
+  }
+  20% {
+    border-color: #39ff14;
+  }
+  40% {
+    border-color: #00ffff;
+  }
+  60% {
+    border-color: #ff00ff;
+  }
+  80% {
+    border-color: #ffff00;
+  }
+  100% {
+    border-color: #ffa500;
+  }
+}
+
 .App {
   background-color: black;
   text-align: center;
   height: 95vh;
-  margin: 20px; /* Small margin around the page */
-  border: 20px double #ffa500; /* Border around the page */
-  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+  margin: 20px;
+  border: 20px double #ffa500;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Optional: if you want to stack items vertically */
+  flex-direction: column;
+  /* No animation initially */
+}
+
+.animated {
+  animation: borderPulse 5s ease-in-out;
 }
