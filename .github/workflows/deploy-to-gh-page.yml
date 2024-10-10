@@ -28,10 +28,10 @@ jobs:
           cd client
           npm run build
 
-      # - name: Configure Git
-      #   run: |
-      #     git config --global user.email yadhapdahal111@gmail.com
-      #     git config --global user.name ydahal1
+      - name: Configure Git
+        run: |
+          git config --global user.email yadhapdahal111@gmail.com
+          git config --global user.name ydahal1
 
       - name: Deploy to GitHub Pages
         run: |
