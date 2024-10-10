@@ -2,7 +2,7 @@ import React from "react";
 import QuizBoard from "./components/QuizBoard";
 import "./App.css";
 
-//App component
+//App component - update
 function App() {
   return (
     <div className="App">
