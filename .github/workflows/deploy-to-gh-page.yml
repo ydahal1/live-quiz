@@ -10,32 +10,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout code
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
+      # Step 2: Set up Node.js environment
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: "14"
 
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           cd client
           npm install
 
+      # Step 4: Build the React app
       - name: Build the React app
         run: |
           cd client
           npm run build
 
+      # Step 5: Configure Git (uses secrets for user details)
       - name: Configure Git
         run: |
           git config --global user.email ${{ secrets.GIT_USER_EMAIL }}
           git config --global user.name ${{ secrets.GIT_USER_NAME }}
 
+      # Step 6: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         run: |
           cd client
           npm run deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_FOR_GH_PAGE_DEPLOY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub's built-in token
