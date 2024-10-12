@@ -57,7 +57,7 @@ function Answer({ currentQuestion, setCurrentQuestion, questionBank }) {
 
       // replace the itemInRandomIndex with %%
       constantAnswerArray[itemIndexInConstantAnswerArray] = "%%";
-    }, 2000);
+    }, 1500);
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [currentQuestion]);
