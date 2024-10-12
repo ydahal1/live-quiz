@@ -1,4 +1,4 @@
-const questionBank = [
+const world_geography = [
   {
     question: "Which city is the capital of Canada?",
     options: ["Toronto", "Montreal", "Vancouver", "Ottawa"],
@@ -1775,4 +1775,4 @@ const questionBank = [
   },
 ];
 
-module.exports = questionBank;
+module.exports = world_geography;

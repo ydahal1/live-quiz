@@ -1,9 +1,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import AnswerChar from "./AnswerChar";
-import questionBank from "../db/questionBank";
 
-function Answer({ currentQuestion, setCurrentQuestion }) {
+function Answer({ currentQuestion, setCurrentQuestion, questionBank }) {
   const [currentChar, setCurrentChar] = useState(null);
   const [answerArray, setAnswerArray] = useState([]);
   const [alreadyPicked, setAlreadyPicked] = useState([]);
