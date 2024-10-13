@@ -3,8 +3,13 @@ import Question from "./Question";
 import Answer from "./Answer";
 import world_geography from "../../db/world_geography";
 import human_anatomy from "../../db/human_anatomy";
+import inventions_inventor from "../../db/inventions_inventor";
 
-const questionBank = [...world_geography, ...human_anatomy];
+const questionBank = [
+  ...world_geography,
+  ...human_anatomy,
+  ...inventions_inventor,
+];
 // Shuffle the questions
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
