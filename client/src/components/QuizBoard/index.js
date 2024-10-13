@@ -6,8 +6,15 @@ import human_anatomy from "../../db/human_anatomy";
 
 const questionBank = [...world_geography, ...human_anatomy];
 // Shuffle the questions
-const shuffledQuestionBank = questionBank.sort(() => Math.random() - 0.5);
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
+const shuffledQuestionBank = shuffleArray([...questionBank]);
 function QuizBoard() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
 
