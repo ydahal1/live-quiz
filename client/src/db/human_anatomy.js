@@ -13,19 +13,6 @@ const human_anatomy = [
     explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
   },
   {
-    question: "How many bones are there in an adult human body?",
-    options: ["206", "210", "208", "300"],
-    correctAnswer: "206",
-    explanation:
-      "The adult human body contains 206 bones, although babies are born with around 300 bones that fuse over time.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/4/4c/Human_skeleton_front_en.svg",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
     question: "What type of joint is found in the shoulder?",
     options: [
       "Hinge joint",
@@ -381,19 +368,6 @@ const human_anatomy = [
     explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
   },
   {
-    question: "How many chambers does the human heart have?",
-    options: ["2", "3", "4", "5"],
-    correctAnswer: "4",
-    explanation:
-      "The human heart has four chambers: two atria and two ventricles.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/3/3b/Heart_anatomy_tight.jpg",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
     question: "What is the main function of the small intestine?",
     options: [
       "Absorb nutrients",
@@ -553,18 +527,6 @@ const human_anatomy = [
       "The liver stores essential vitamins and minerals, including vitamins A, D, E, and K.",
     imageLink:
       "https://upload.wikimedia.org/wikipedia/commons/2/26/Human_liver.svg",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
-    question: "How many ribs does the human body typically have?",
-    options: ["20", "22", "24", "26"],
-    correctAnswer: "24",
-    explanation: "The human body typically has 24 ribs, 12 on each side.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/5/5b/Rib_cage.jpg",
     questionAudio: "https://www.soundjay.com/button/beep-07.wav",
     optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
     answerAudio: "https://www.soundjay.com/button/beep-07.wav",
@@ -1016,18 +978,6 @@ const human_anatomy = [
     explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
   },
   {
-    question: "How many teeth does a typical adult human have?",
-    options: ["28", "30", "32", "34"],
-    correctAnswer: "32",
-    explanation: "A typical adult has 32 teeth, including wisdom teeth.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/7/7d/Human_teeth_chart.png",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
     question: "What is the strongest muscle in the human body by weight?",
     options: ["Masseter", "Gluteus Maximus", "Biceps", "Heart"],
     correctAnswer: "Masseter",
@@ -1105,19 +1055,6 @@ const human_anatomy = [
     explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
   },
   {
-    question: "How many pairs of ribs does a human body have?",
-    options: ["10", "12", "14", "16"],
-    correctAnswer: "12",
-    explanation:
-      "A typical human body has 12 pairs of ribs, forming the ribcage.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/5/5b/Rib_cage.jpg",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
     question: "Which part of the body produces red blood cells?",
     options: ["Bone marrow", "Liver", "Spleen", "Lymph nodes"],
     correctAnswer: "Bone marrow",
@@ -1176,18 +1113,6 @@ const human_anatomy = [
     explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
   },
   {
-    question: "How many chambers does the human heart have?",
-    options: ["2", "3", "4", "5"],
-    correctAnswer: "4",
-    explanation: "The heart has four chambers: two atria and two ventricles.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/3/3b/Heart_anatomy_tight.jpg",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
     question: "Which is the largest internal organ in the human body?",
     options: ["Liver", "Lungs", "Stomach", "Intestines"],
     correctAnswer: "Liver",
@@ -1195,19 +1120,6 @@ const human_anatomy = [
       "The liver is the largest internal organ, essential for detoxification and digestion.",
     imageLink:
       "https://upload.wikimedia.org/wikipedia/commons/2/26/Human_liver.svg",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
-    question: "How many vertebrae are in the human spine?",
-    options: ["24", "26", "28", "30"],
-    correctAnswer: "24",
-    explanation:
-      "The human spine consists of 24 vertebrae divided into cervical, thoracic, and lumbar regions.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/9/98/Vertebral_column.png",
     questionAudio: "https://www.soundjay.com/button/beep-07.wav",
     optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
     answerAudio: "https://www.soundjay.com/button/beep-07.wav",
@@ -1260,19 +1172,6 @@ const human_anatomy = [
       "Adrenaline, released by the adrenal glands, prepares the body for fight-or-flight situations.",
     imageLink:
       "https://upload.wikimedia.org/wikipedia/commons/6/68/Adrenal_gland_anatomy.jpg",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
-    question: "How many bones are in the human hand, including the wrist?",
-    options: ["27", "28", "29", "30"],
-    correctAnswer: "27",
-    explanation:
-      "There are 27 bones in the human hand, including carpals, metacarpals, and phalanges.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/8/8b/Human_hand_bones.jpg",
     questionAudio: "https://www.soundjay.com/button/beep-07.wav",
     optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
     answerAudio: "https://www.soundjay.com/button/beep-07.wav",
@@ -1490,19 +1389,6 @@ const human_anatomy = [
     explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
   },
   {
-    question: "How many lobes does the human brain have?",
-    options: ["4", "6", "5", "3"],
-    correctAnswer: "4",
-    explanation:
-      "The human brain has four lobes: frontal, parietal, temporal, and occipital.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/6/6b/Brain_lobes.svg",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
     question: "Which muscle group allows you to bend your elbow?",
     options: ["Biceps", "Triceps", "Deltoids", "Pectorals"],
     correctAnswer: "Biceps",
@@ -1709,18 +1595,6 @@ const human_anatomy = [
     explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
   },
   {
-    question: "How many taste buds does the average human tongue have?",
-    options: ["5,000", "10,000", "15,000", "20,000"],
-    correctAnswer: "10,000",
-    explanation: "The average human tongue has about 10,000 taste buds.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/7/75/Taste_buds.jpg",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
     question: "How fast can nerve impulses travel in the human body?",
     options: ["10 mph", "60 mph", "120 mph", "300 mph"],
     correctAnswer: "120 mph",
@@ -1766,19 +1640,6 @@ const human_anatomy = [
       "The sense of touch develops first in the womb, as early as 8 weeks.",
     imageLink:
       "https://upload.wikimedia.org/wikipedia/commons/8/8f/Baby_touch.jpg",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
-    question: "How many muscles are used when you smile?",
-    options: ["10", "17", "22", "30"],
-    correctAnswer: "17",
-    explanation:
-      "It takes 17 muscles to smile, engaging various facial muscles.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/d/da/Facial_muscles.png",
     questionAudio: "https://www.soundjay.com/button/beep-07.wav",
     optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
     answerAudio: "https://www.soundjay.com/button/beep-07.wav",
@@ -1865,19 +1726,6 @@ const human_anatomy = [
       "The stapedius muscle, located in the ear, is the smallest muscle in the human body.",
     imageLink:
       "https://upload.wikimedia.org/wikipedia/commons/a/ac/Stapedius_muscle.png",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
-    question: "How many bones are in the human foot?",
-    options: ["26", "28", "30", "32"],
-    correctAnswer: "26",
-    explanation:
-      "The human foot consists of 26 bones, contributing to its complex structure.",
-    imageLink:
-      "https://upload.wikimedia.org/wikipedia/commons/3/35/Foot_bones.png",
     questionAudio: "https://www.soundjay.com/button/beep-07.wav",
     optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
     answerAudio: "https://www.soundjay.com/button/beep-07.wav",

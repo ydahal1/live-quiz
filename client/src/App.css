@@ -1,9 +1,9 @@
 .App {
-  background-color: black;
+  background-color: #0d92f4;
   text-align: center;
   height: 95vh;
   margin: 20px;
-  border: 15px double #ffa500;
+  border: 15px double white;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@
 
 /* Question Component */
 .question {
-  color: #ffa500;
+  color: white;
   /* color: white; */
   font-size: 100px;
   padding: 10px 70px 40px 70px;
@@ -40,10 +40,10 @@
   border: 6px double white;
   padding: 10px;
   margin: 5px;
-  background-color: black;
+  background-color: #0d92f4;
   text-transform: uppercase;
-  font-size: 90px;
-  font-weight: bold;
+  font-size: 70px;
+  font-weight: 900;
   min-width: 90px;
   text-align: center;
 }
@@ -52,7 +52,7 @@
   border: none;
   padding: 5px;
   margin: 10px;
-  background-color: black;
+  background-color: #0d92f4;
   text-transform: uppercase;
   font-size: 40px;
   font-weight: bold;
@@ -61,7 +61,7 @@
 }
 
 .cover-char {
-  color: black;
+  color: #0d92f4;
 }
 
 .uncover-char {
