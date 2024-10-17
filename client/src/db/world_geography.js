@@ -1594,18 +1594,6 @@ const world_geography = [
     explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
   },
   {
-    question: "Which island is the smallest country by area in the world?",
-    options: ["Vatican City", "Nauru", "Monaco", "Tuvalu"],
-    correctAnswer: "Vatican City",
-    explanation:
-      "Vatican City is the smallest country by area, covering just 44 hectares (110 acres).",
-    imageLink: "https://www.countryflags.io/va/flat/64.png",
-    questionAudio: "https://www.soundjay.com/button/beep-07.wav",
-    optionsAudio: "https://www.soundjay.com/button/beep-07.wav",
-    answerAudio: "https://www.soundjay.com/button/beep-07.wav",
-    explanationAudio: "https://www.soundjay.com/button/beep-07.wav",
-  },
-  {
     question: "Which country is known as the 'Land of the Rising Sun'?",
     options: ["Japan", "South Korea", "China", "Thailand"],
     correctAnswer: "Japan",
