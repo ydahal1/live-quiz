@@ -5,10 +5,10 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename="https://ydahal1.github.io/live-quiz/">
+    <Router basename="/live-quiz">
       <div className="App">
         <Routes>
-          <Route exact path="/" element={<QuizBoard />} />
+          <Route path="/" element={<QuizBoard />} />
           <Route path="/uscis" element={<Uscis />} />
         </Routes>
       </div>
