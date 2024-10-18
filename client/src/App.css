@@ -30,44 +30,48 @@
 } */
 
 .uscis {
+  border: 15px double var(--us-flag-white);
+  /* outline: 6rem solid var(--us-flag-blue); */
+  color: var(--us-flag-white);
+  height: 90vh;
+  width: auto;
+  margin: 40px;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  border: 1rem solid var(--us-flag-white);
-  margin: 2rem;
-  outline: 6rem solid var(--us-flag-blue);
-  color: var(--us-flag-white);
+  text-align: center;
 }
 
 .questionDisplay {
   background-color: var(--us-flag-blue);
-  font-size: 9rem;
+  font-size: 6rem;
   /* width: 40%;*/
-  height: 35%;
+  height: 40%;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center; /* Center vertically */
-  text-align: center;
-  padding: 10rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .answerDisplay {
   background-color: var(--us-flag-red);
-  font-size: 6rem;
-  /* width: 60%;*/
-  height: 65%;
+  font-size: 5rem;
+  height: 60%;
+  font-weight: bold;
   font-weight: normal;
-  /* display: flex; */
-  padding: 10rem;
+  padding: auto;
+  justify-content: center;
+  overflow: hidden;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  /* align-items: center; /* Center vertically */
-  text-align: center;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .answerLines {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 /* Quiz */
