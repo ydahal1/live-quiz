@@ -38,7 +38,6 @@
   margin: 40px;
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
 .questionDisplay {
@@ -54,27 +53,56 @@
   padding-right: 2rem;
 }
 
+.answerDisplayContainer {
+  height: 60%;
+  background-color: var(--us-flag-red);
+}
+
 .answerDisplay {
+  font-size: 5rem;
+  /* height: 60%; */
+  font-weight: normal; /* Removed duplicate font-weight */
+  overflow: hidden;
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: repeat(4, 1fr); /* Two columns */
+  grid-auto-rows: minmax(
+    20px,
+    auto
+  ); /* Control the height of individual grid items */
+  padding: 2rem 8rem;
+  text-align: left;
+}
+
+.answerDisplaySingle {
   background-color: var(--us-flag-red);
   font-size: 5rem;
   height: 60%;
-  font-weight: bold;
-  font-weight: normal;
-  padding: auto;
-  justify-content: center;
+  font-weight: normal; /* Removed duplicate font-weight */
   overflow: hidden;
+  padding: 8rem 2rem 8rem 2rem;
   display: flex;
   justify-content: center;
-  align-items: center; /* Center vertically */
-  padding-left: 2rem;
-  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.answerLines {
+.answerLine {
+  /* border: 1px solid lightgray; */
+  margin: 0.5rem;
   padding: 0.5rem;
 }
 
-/* Quiz */
+.answerLine:nth-child(odd) {
+  /* text-align: right; */
+}
+
+/* .answerLine:nth-child(even) {
+  background-color: var(--us-flag-blue);
+  text-align: left;
+} */
+
+/* Quiz ------------------------ */
 /* Quizboard */
 .quizboard {
   display: flex;

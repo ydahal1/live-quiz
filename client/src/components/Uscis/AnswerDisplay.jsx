@@ -56,15 +56,21 @@ function AnswerDisplay({
   }, [usCitizenshipQuestions, currentQuestion]);
 
   return (
-    <div className="answerDisplay">
-      <div>
+    <div className="answerDisplayContainer">
+      <div
+        className={`${
+          usCitizenshipQuestions[currentQuestion].correctAnswer.length > 6
+            ? "answerDisplay"
+            : "answerDisplaySingle"
+        }`}
+      >
         {displayAnswer &&
           usCitizenshipQuestions[currentQuestion].correctAnswer.map(
             (answer) => {
               return (
-                <div className="answerLines" key={answer}>
+                <li className="answerLine" key={answer}>
                   {answer}
-                </div>
+                </li>
               );
             }
           )}
