@@ -262,245 +262,269 @@ const usCitizenshipQuestions = [
   //   questionAudioLength: 5500,
   //   questionAnswerAudio: "",
   // },
-  // {
-  //   id: 29,
-  //   question:
-  //     "What is the name of the Vice President of the United States now?",
-  //   correctAnswer: ["Kamala Harris"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 30,
-  //   question: "If the President can no longer serve, who becomes President?",
-  //   correctAnswer: ["The Vice President"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 31,
-  //   question:
-  //     "If both the President and the Vice President can no longer serve, who becomes President?",
-  //   correctAnswer: ["The Speaker of the House"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 32,
-  //   question: " Who is the Commander in Chief of the military?",
-  //   correctAnswer: ["The President"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 33,
-  //   question: "Who signs bills to become laws?",
-  //   correctAnswer: ["The President"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 34,
-  //   question: "Who vetoes bills?",
-  //   correctAnswer: ["The President"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 35,
-  //   question: "What does the President’s Cabinet do?",
-  //   correctAnswer: ["Advises the President"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 36,
-  //   question: "What are two Cabinet-level positions?",
-  //   correctAnswer: [
-  //     "Secretary of Agriculture",
-  //     "Secretary of Commerce",
-  //     "Secretary of Defense",
-  //     "Secretary of Education",
-  //     "Secretary of Energy",
-  //     "Secretary of Health and Human Services",
-  //     "Secretary of Homeland Security",
-  //     "Secretary of Housing and Urban Development",
-  //     "Secretary of the Interior",
-  //     "Secretary of Labor",
-  //     "Secretary of State",
-  //     "Secretary of Transportation",
-  //     "Secretary of the Treasury",
-  //     "Secretary of Veterans Affairs",
-  //     "Attorney General",
-  //     "Vice President",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 37,
-  //   question: "What does the judicial branch do?",
-  //   correctAnswer: [
-  //     "Reviews laws",
-  //     "Explains laws",
-  //     "Resolves disputes (disagreements)",
-  //     "Decides if a law goes against the Constitution",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 38,
-  //   question: "What is the highest court in the United States?",
-  //   correctAnswer: ["The Supreme Court"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 39,
-  //   question: "How many justices are on the Supreme Court?",
-  //   correctAnswer: ["Nine (9)"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 40,
-  //   question: "Who is the Chief Justice of the United States now?",
-  //   correctAnswer: ["John Roberts"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 41,
-  //   question:
-  //     "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
-  //   correctAnswer: [
-  //     "To print money",
-  //     "To declare war",
-  //     "To create an army",
-  //     "To make treaties",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 42,
-  //   question:
-  //     "Under our Constitution, some powers belong to the states. What is one power of the states?",
-  //   correctAnswer: [
-  //     "Provide schooling and education",
-  //     "Provide protection (police)",
-  //     "Provide safety (fire departments)",
-  //     "Give a driver’s license",
-  //     "Approve zoning and land use",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 43,
-  //   question: "Who is the Governor of your state now?",
-  //   correctAnswer: [
-  //     "Answers will vary. [District of Columbia residents should answer that D.C. does not have a Governor.]",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 44,
-  //   question: "What is the capital of your state?",
-  //   correctAnswer: [
-  //     "Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital.]",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 45,
-  //   question: "What are the two major political parties in the United States?",
-  //   correctAnswer: ["Democratic and Republican"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 46,
-  //   question: "What is the political party of the President now?",
-  //   correctAnswer: ["Democratic (Party)"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 47,
-  //   question:
-  //     "What is the name of the Speaker of the House of Representatives now?",
-  //   correctAnswer: ["Nancy Pelosi"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 48,
-  //   question:
-  //     "There are four amendments to the Constitution about who can vote. Describe one of them.",
-  //   correctAnswer: [
-  //     "Citizens eighteen (18) and older (can vote)",
-  //     "You don’t have to pay (a poll tax) to vote",
-  //     "Any citizen can vote. (women and man can vote)",
-  //     "A male citizen of any race (can vote)",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 49,
-  //   question:
-  //     "What is one responsibility that is only for United States citizens?",
-  //   correctAnswer: ["Serve on a jury", "Vote in a federal election"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 50,
-  //   question: "Name one right only for United States citizens.",
-  //   correctAnswer: ["Vote in a federal election", "Run for federal office"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 51,
-  //   question: "What are two rights of everyone living in the United States?",
-  //   correctAnswer: [
-  //     "Freedom of expression",
-  //     "Freedom of speech",
-  //     "Freedom of assembly",
-  //     "Freedom to petition the government",
-  //     "Freedom of worship",
-  //     "The right to bear arms",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 52,
-  //   question:
-  //     "What do we show loyalty to when we say the Pledge of Allegiance?",
-  //   correctAnswer: ["The United States", "The flag"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 53,
-  //   question:
-  //     "What is one promise you make when you become a United States citizen?",
-  //   correctAnswer: [
-  //     "Give up loyalty to other countries",
-  //     "Defend the Constitution and laws of the United States",
-  //     "Obey the laws of the United States",
-  //     "Serve in the U.S. military (if needed)",
-  //     "Serve (do important work for) the nation (if needed)",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
+  {
+    id: 29,
+    question:
+      "What is the name of the Vice President of the United States now?",
+    correctAnswer: ["Kamala Harris"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/29.mp3",
+  },
+  {
+    id: 30,
+    question: "If the President can no longer serve, who becomes President?",
+    correctAnswer: ["The Vice President"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/30.mp3",
+  },
+  {
+    id: 31,
+    question:
+      "If both the President and the Vice President can no longer serve, who becomes President?",
+    correctAnswer: ["The Speaker of the House"],
+    questionAudioLength: 6500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/31.mp3",
+  },
+  {
+    id: 32,
+    question: " Who is the Commander in Chief of the military?",
+    correctAnswer: ["The President"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/32.mp3",
+  },
+  {
+    id: 33,
+    question: "Who signs bills to become laws?",
+    correctAnswer: ["The President"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/33.mp3",
+  },
+  {
+    id: 34,
+    question: "Who vetoes bills?",
+    correctAnswer: ["The President"],
+    questionAudioLength: 4500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/34.mp3",
+  },
+  {
+    id: 35,
+    question: "What does the President’s Cabinet do?",
+    correctAnswer: ["Advises the President"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/35.mp3",
+  },
+  {
+    id: 36,
+    question: "What are two Cabinet-level positions?",
+    correctAnswer: [
+      "Secretary of Agriculture",
+      "Secretary of Commerce",
+      "Secretary of Defense",
+      "Secretary of Education",
+      "Secretary of Energy",
+      "Secretary of Health and Human Services",
+      "Secretary of Homeland Security",
+      "Secretary of Housing and Urban Development",
+      "Secretary of the Interior",
+      "Secretary of Labor",
+      "Secretary of State",
+      "Secretary of Transportation",
+      "Secretary of the Treasury",
+      "Secretary of Veterans Affairs",
+      "Attorney General",
+      "Vice President",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/36.mp3",
+  },
+  {
+    id: 37,
+    question: "What does the judicial branch do?",
+    correctAnswer: [
+      "Reviews laws",
+      "Explains laws",
+      "Resolves disputes (disagreements)",
+      "Decides if a law goes against the Constitution",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/37.mp3",
+  },
+  {
+    id: 38,
+    question: "What is the highest court in the United States?",
+    correctAnswer: ["The Supreme Court"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/38.mp3",
+  },
+  {
+    id: 39,
+    question: "How many justices are on the Supreme Court?",
+    correctAnswer: ["Nine (9)"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/39.mp3",
+  },
+  {
+    id: 40,
+    question: "Who is the Chief Justice of the United States now?",
+    correctAnswer: ["John Roberts"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/40.mp3",
+  },
+  {
+    id: 41,
+    question:
+      "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+    correctAnswer: [
+      "To print money",
+      "To declare war",
+      "To create an army",
+      "To make treaties",
+    ],
+    questionAudioLength: 7000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/41.mp3",
+  },
+  {
+    id: 42,
+    question:
+      "Under our Constitution, some powers belong to the states. What is one power of the states?",
+    correctAnswer: [
+      "Provide schooling and education",
+      "Provide protection (police)",
+      "Provide safety (fire departments)",
+      "Give a driver’s license",
+      "Approve zoning and land use",
+    ],
+    questionAudioLength: 6000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/42.mp3",
+  },
+  {
+    id: 43,
+    question: "Who is the Governor of your state now?",
+    correctAnswer: [
+      "Answers will vary. [District of Columbia residents should answer that D.C. does not have a Governor.]",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/43.mp3",
+  },
+  {
+    id: 44,
+    question: "What is the capital of your state?",
+    correctAnswer: [
+      "Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital.]",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/44.mp3",
+  },
+  {
+    id: 45,
+    question: "What are the two major political parties in the United States?",
+    correctAnswer: ["Democratic and Republican"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/45.mp3",
+  },
+  {
+    id: 46,
+    question: "What is the political party of the President now?",
+    correctAnswer: ["Democratic (Party)"],
+    questionAudioLength: 6000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/46.mp3",
+  },
+  {
+    id: 47,
+    question:
+      "What is the name of the Speaker of the House of Representatives now?",
+    correctAnswer: ["Nancy Pelosi"],
+    questionAudioLength: 7000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/47.mp3",
+  },
+  {
+    id: 48,
+    question:
+      "There are four amendments to the Constitution about who can vote. Describe one of them.",
+    correctAnswer: [
+      "Citizens eighteen (18) and older (can vote)",
+      "You don’t have to pay (a poll tax) to vote",
+      "Any citizen can vote. (women and man can vote)",
+      "A male citizen of any race (can vote)",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/48.mp3",
+  },
+  {
+    id: 49,
+    question:
+      "What is one responsibility that is only for United States citizens?",
+    correctAnswer: ["Serve on a jury", "Vote in a federal election"],
+    questionAudioLength: 6500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/49.mp3",
+  },
+  {
+    id: 50,
+    question: "Name one right only for United States citizens.",
+    correctAnswer: ["Vote in a federal election", "Run for federal office"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/50.mp3",
+  },
+  {
+    id: 51,
+    question: "What are two rights of everyone living in the United States?",
+    correctAnswer: [
+      "Freedom of expression",
+      "Freedom of speech",
+      "Freedom of assembly",
+      "Freedom to petition the government",
+      "Freedom of worship",
+      "The right to bear arms",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/51.mp3",
+  },
+  {
+    id: 52,
+    question:
+      "What do we show loyalty to when we say the Pledge of Allegiance?",
+    correctAnswer: ["The United States", "The flag"],
+    questionAudioLength: 5500,
+    questionAnswerAudio: "",
+  },
+  {
+    id: 53,
+    question:
+      "What is one promise you make when you become a United States citizen?",
+    correctAnswer: [
+      "Give up loyalty to other countries",
+      "Defend the Constitution and laws of the United States",
+      "Obey the laws of the United States",
+      "Serve in the U.S. military (if needed)",
+      "Serve (do important work for) the nation (if needed)",
+    ],
+    questionAudioLength: 7000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/53.mp3",
+  },
   {
     id: 54,
     question: "How old do citizens have to be to vote for President?",
