@@ -1,267 +1,269 @@
 const usCitizenshipQuestions = [
-  // {
-  //   id: 1,
-  //   question: "What is the supreme law of the land?",
-  //   correctAnswer: ["The Constitution "],
-  //   questionAudioLength: 6000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/01.mp3",
-  // },
-  // {
-  //   id: 2,
-  //   question: ["What does the Constitution do?"],
-  //   correctAnswer: [
-  //     "Sets up the government",
-  //     "Defines the government",
-  //     "Protects basic rights of Americans.",
-  //   ],
-  //   questionAudioLength: 5000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/02.mp3",
-  // },
-  // {
-  //   id: 3,
-  //   question:
-  //     "The idea of self-government is in the first three words of the Constitution. What are these words?",
-  //   correctAnswer: ["We the People"],
-  //   questionAudioLength: 8000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/03.mp3",
-  // },
-  // {
-  //   id: 4,
-  //   question: "What is an amendment?",
-  //   correctAnswer: [
-  //     "A change to the Constitution",
-  //     "An addition to the Constitution",
-  //   ],
-  //   questionAudioLength: 4000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/04.mp3",
-  // },
-  // {
-  //   id: 5,
-  //   question: "What do we call the first ten amendments to the Constitution?",
-  //   correctAnswer: ["The Bill of Rights"],
-  //   questionAudioLength: 6000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/05.mp3",
-  // },
-  // {
-  //   id: 6,
-  //   question: "What is one right or freedom from the First Amendment?",
-  //   correctAnswer: [
-  //     "Speech",
-  //     "Religion",
-  //     "Assembly",
-  //     "Press",
-  //     "Petition the Government",
-  //   ],
-  //   questionAudioLength: 6200,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/06.mp3",
-  // },
-  // {
-  //   id: 7,
-  //   question: "How many amendments does the Constitution have?",
-  //   correctAnswer: ["Twenty-seven (27)"],
-  //   questionAudioLength: 6000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/07.mp3",
-  // },
-  // {
-  //   id: 8,
-  //   question: "What did the Declaration of Independence do?",
-  //   correctAnswer: [
-  //     "Announced our independence from Great Britain",
-  //     "Declared our independence from Great Britain",
-  //     "Said that the United States is free from Great Britain",
-  //   ],
-  //   questionAudioLength: 6000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/08.mp3",
-  // },
-  // {
-  //   id: 9,
-  //   question: "What are two rights in the Declaration of Independence?",
-  //   correctAnswer: ["Life", "Liberty", "Pursuit of Happiness"],
-  //   questionAudioLength: 7000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/09.mp3",
-  // },
-  // {
-  //   id: 10,
-  //   question: "What is freedom of religion?",
-  //   correctAnswer: [
-  //     "You can practice any religion, or not practice a religion",
-  //   ],
-  //   questionAudioLength: 5000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/10.mp3",
-  // },
-  // {
-  //   id: 11,
-  //   question: "What is the economic system in the United States?",
-  //   correctAnswer: ["Capitalist economy", "Market economy"],
-  //   questionAudioLength: 6500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/11.mp3",
-  // },
-  // {
-  //   id: 12,
-  //   question: "What is the “rule of law”?",
-  //   correctAnswer: [
-  //     "Everyone must follow the law",
-  //     "Leaders must obey the law",
-  //     "Government must obey the law.",
-  //     "No one is above the law.",
-  //   ],
-  //   questionAudioLength: 5000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/12.mp3",
-  // },
-  // {
-  //   id: 13,
-  //   question: "Name one branch or part of the government.",
-  //   correctAnswer: [
-  //     "The legislative branch (Congress)",
-  //     "The executive branch (President)",
-  //     "The judicial branch (Courts)",
-  //   ],
-  //   questionAudioLength: 6500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/13.mp3",
-  // },
-  // {
-  //   id: 14,
-  //   question: "What stops one branch of government from becoming too powerful?",
-  //   correctAnswer: ["Checks and balances", "Separation of powers"],
-  //   questionAudioLength: 6500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/14.mp3",
-  // },
-  // {
-  //   id: 15,
-  //   question: "Who is in charge of the executive branch?",
-  //   correctAnswer: ["The President"],
-  //   questionAudioLength: 7000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/15.mp3",
-  // },
-  // {
-  //   id: 16,
-  //   question: "Who makes federal laws?",
-  //   correctAnswer: [
-  //     "Congress",
-  //     "Senate and House",
-  //     "(U.S. or national) legislature",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/16.mp3",
-  // },
-  // {
-  //   id: 17,
-  //   question: "What are the two parts of the U.S. Congress?",
-  //   correctAnswer: ["The Senate", "House (of Representatives)"],
-  //   questionAudioLength: 6500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/17.mp3",
-  // },
-  // {
-  //   id: 18,
-  //   question: "How many U.S. Senators are there?",
-  //   correctAnswer: ["One hundred (100)"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/18.mp3",
-  // },
-  // {
-  //   id: 19,
-  //   question: "We elect a U.S. Senator for how many years?",
-  //   correctAnswer: ["Six (6)"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/19.mp3",
-  // },
-  // {
-  //   id: 20,
-  //   question: "Who is one of your state’s U.S. Senators now?",
-  //   correctAnswer: [
-  //     "Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/20.mp3",
-  // },
-  // {
-  //   id: 21,
-  //   question: "The House of Representatives has how many voting members?",
-  //   correctAnswer: ["Four hundred thirty-five (435)"],
-  //   questionAudioLength: 6500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/21.mp3",
-  // },
-  // {
-  //   id: 22,
-  //   question: "We elect a U.S. Representative for how many years?",
-  //   correctAnswer: ["2 Years"],
-  //   questionAudioLength: 6500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/22.mp3",
-  // },
-  // {
-  //   id: 23,
-  //   question: "Name your U.S. Representative.",
-  //   correctAnswer: [
-  //     "Answers will vary—You can find your U.S. Representative at house.gov by entering your zip code.",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/23.mp3",
-  // },
-  // {
-  //   id: 24,
-  //   question: "Who does a U.S. Senator represent?",
-  //   correctAnswer: ["All people of the state"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/24.mp3",
-  // },
-  // {
-  //   id: 25,
-  //   question: "Why do some states have more Representatives than other states?",
-  //   correctAnswer: [
-  //     "Because of the state’s population",
-  //     "Because they have more people",
-  //     "Because some states have more people",
-  //   ],
-  //   questionAudioLength: 6500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/25.mp3",
-  // },
-  // {
-  //   id: 26,
-  //   question: "We elect a President for how many years?",
-  //   correctAnswer: ["4 Years"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/26.mp3",
-  // },
-  // {
-  //   id: 27,
-  //   question: "In what month do we vote for President?",
-  //   correctAnswer: ["November"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
-  // {
-  //   id: 28,
-  //   question: "What is the name of the President of the United States now?",
-  //   correctAnswer: ["Joe Biden"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio: "",
-  // },
+  {
+    id: 1,
+    question: "What is the supreme law of the land?",
+    correctAnswer: ["The Constitution "],
+    questionAudioLength: 6000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/01.mp3",
+  },
+  {
+    id: 2,
+    question: ["What does the Constitution do?"],
+    correctAnswer: [
+      "Sets up the government",
+      "Defines the government",
+      "Protects basic rights of Americans.",
+    ],
+    questionAudioLength: 5000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/02.mp3",
+  },
+  {
+    id: 3,
+    question:
+      "The idea of self-government is in the first three words of the Constitution. What are these words?",
+    correctAnswer: ["We the People"],
+    questionAudioLength: 8000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/03.mp3",
+  },
+  {
+    id: 4,
+    question: "What is an amendment?",
+    correctAnswer: [
+      "A change to the Constitution",
+      "An addition to the Constitution",
+    ],
+    questionAudioLength: 4000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/04.mp3",
+  },
+  {
+    id: 5,
+    question: "What do we call the first ten amendments to the Constitution?",
+    correctAnswer: ["The Bill of Rights"],
+    questionAudioLength: 6000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/05.mp3",
+  },
+  {
+    id: 6,
+    question: "What is one right or freedom from the First Amendment?",
+    correctAnswer: [
+      "Speech",
+      "Religion",
+      "Assembly",
+      "Press",
+      "Petition the Government",
+    ],
+    questionAudioLength: 6200,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/06.mp3",
+  },
+  {
+    id: 7,
+    question: "How many amendments does the Constitution have?",
+    correctAnswer: ["Twenty-seven (27)"],
+    questionAudioLength: 6000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/07.mp3",
+  },
+  {
+    id: 8,
+    question: "What did the Declaration of Independence do?",
+    correctAnswer: [
+      "Announced our independence from Great Britain",
+      "Declared our independence from Great Britain",
+      "Said that the United States is free from Great Britain",
+    ],
+    questionAudioLength: 6000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/08.mp3",
+  },
+  {
+    id: 9,
+    question: "What are two rights in the Declaration of Independence?",
+    correctAnswer: ["Life", "Liberty", "Pursuit of Happiness"],
+    questionAudioLength: 7000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/09.mp3",
+  },
+  {
+    id: 10,
+    question: "What is freedom of religion?",
+    correctAnswer: [
+      "You can practice any religion, or not practice a religion",
+    ],
+    questionAudioLength: 5000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/10.mp3",
+  },
+  {
+    id: 11,
+    question: "What is the economic system in the United States?",
+    correctAnswer: ["Capitalist economy", "Market economy"],
+    questionAudioLength: 6500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/11.mp3",
+  },
+  {
+    id: 12,
+    question: "What is the “rule of law”?",
+    correctAnswer: [
+      "Everyone must follow the law",
+      "Leaders must obey the law",
+      "Government must obey the law.",
+      "No one is above the law.",
+    ],
+    questionAudioLength: 5000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/12.mp3",
+  },
+  {
+    id: 13,
+    question: "Name one branch or part of the government.",
+    correctAnswer: [
+      "The legislative branch (Congress)",
+      "The executive branch (President)",
+      "The judicial branch (Courts)",
+    ],
+    questionAudioLength: 6500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/13.mp3",
+  },
+  {
+    id: 14,
+    question: "What stops one branch of government from becoming too powerful?",
+    correctAnswer: ["Checks and balances", "Separation of powers"],
+    questionAudioLength: 6500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/14.mp3",
+  },
+  {
+    id: 15,
+    question: "Who is in charge of the executive branch?",
+    correctAnswer: ["The President"],
+    questionAudioLength: 7000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/15.mp3",
+  },
+  {
+    id: 16,
+    question: "Who makes federal laws?",
+    correctAnswer: [
+      "Congress",
+      "Senate and House",
+      "(U.S. or national) legislature",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/16.mp3",
+  },
+  {
+    id: 17,
+    question: "What are the two parts of the U.S. Congress?",
+    correctAnswer: ["The Senate", "House (of Representatives)"],
+    questionAudioLength: 6500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/17.mp3",
+  },
+  {
+    id: 18,
+    question: "How many U.S. Senators are there?",
+    correctAnswer: ["One hundred (100)"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/18.mp3",
+  },
+  {
+    id: 19,
+    question: "We elect a U.S. Senator for how many years?",
+    correctAnswer: ["Six (6)"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/19.mp3",
+  },
+  {
+    id: 20,
+    question: "Who is one of your state’s U.S. Senators now?",
+    correctAnswer: [
+      "Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/20.mp3",
+  },
+  {
+    id: 21,
+    question: "The House of Representatives has how many voting members?",
+    correctAnswer: ["Four hundred thirty-five (435)"],
+    questionAudioLength: 6500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/21.mp3",
+  },
+  {
+    id: 22,
+    question: "We elect a U.S. Representative for how many years?",
+    correctAnswer: ["2 Years"],
+    questionAudioLength: 6500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/22.mp3",
+  },
+  {
+    id: 23,
+    question: "Name your U.S. Representative.",
+    correctAnswer: [
+      "Answers will vary—You can find your U.S. Representative at house.gov by entering your zip code.",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/23.mp3",
+  },
+  {
+    id: 24,
+    question: "Who does a U.S. Senator represent?",
+    correctAnswer: ["All people of the state"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/24.mp3",
+  },
+  {
+    id: 25,
+    question: "Why do some states have more Representatives than other states?",
+    correctAnswer: [
+      "Because of the state’s population",
+      "Because they have more people",
+      "Because some states have more people",
+    ],
+    questionAudioLength: 6500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/25.mp3",
+  },
+  {
+    id: 26,
+    question: "We elect a President for how many years?",
+    correctAnswer: ["4 Years"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/26.mp3",
+  },
+  {
+    id: 27,
+    question: "In what month do we vote for President?",
+    correctAnswer: ["November"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/27.mp3",
+  },
+  {
+    id: 28,
+    question: "What is the name of the President of the United States now?",
+    correctAnswer: ["Joe Biden"],
+    questionAudioLength: 6000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/28.mp3",
+  },
   {
     id: 29,
     question:
@@ -869,179 +871,179 @@ const usCitizenshipQuestions = [
     questionAnswerAudio:
       "https://quizstorageaccount.blob.core.windows.net/uscis/86.mp3",
   },
-  // {
-  //   id: 87,
-  //   question: "Name one American Indian tribe in the United States.",
-  //   correctAnswer: [
-  //     "Cherokee",
-  //     "Navajo",
-  //     "Sioux",
-  //     "Chippewa",
-  //     "Choctaw",
-  //     "Pueblo",
-  //     "Apache",
-  //     "Iroquois",
-  //     "Creek",
-  //     "Blackfeet",
-  //     "Seminole",
-  //     "Cheyenne",
-  //     "Arawak",
-  //     "Shawnee",
-  //     "Mohegan",
-  //     "Huron",
-  //     "Oneida",
-  //     "Lakota",
-  //     "Crow",
-  //     "Teton",
-  //     "Hopi",
-  //     "Inuit",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/87.mp3",
-  // },
-  // {
-  //   id: 88,
-  //   question: "Name one of the two longest rivers in the United States.",
-  //   correctAnswer: ["Missouri (River)", "Mississippi (River)"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/88.mp3",
-  // },
-  // {
-  //   id: 89,
-  //   question: "What ocean is on the West Coast of the United States?",
-  //   correctAnswer: ["Pacific (Ocean)"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/89.mp3",
-  // },
-  // {
-  //   id: 90,
-  //   question: "What ocean is on the East Coast of the United States?",
-  //   correctAnswer: ["Atlantic (Ocean)"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/90.mp3",
-  // },
-  // {
-  //   id: 91,
-  //   question: "Name one U.S. territory.",
-  //   correctAnswer: [
-  //     "Puerto Rico",
-  //     "U.S. Virgin Islands",
-  //     "American Samoa",
-  //     "Northern Mariana Islands",
-  //     "Guam",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/91.mp3",
-  // },
-  // {
-  //   id: 92,
-  //   question: "Name one state that borders Canada.",
-  //   correctAnswer: [
-  //     "Maine",
-  //     "New Hampshire",
-  //     "Vermont",
-  //     "New York",
-  //     "Pennsylvania",
-  //     "Ohio",
-  //     "Michigan",
-  //     "Minnesota",
-  //     "North Dakota",
-  //     "Montana",
-  //     "Idaho",
-  //     "Washington",
-  //     "Alaska",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/92.mp3",
-  // },
-  // {
-  //   id: 93,
-  //   question: "Name one state that borders Mexico.",
-  //   correctAnswer: ["California", "Arizona", "New Mexico", "Texas"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/93.mp3",
-  // },
-  // {
-  //   id: 94,
-  //   question: "What is the capital of the United States?",
-  //   correctAnswer: ["Washington, D.C."],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/94.mp3",
-  // },
-  // {
-  //   id: 95,
-  //   question: "Where is the Statue of Liberty?",
-  //   correctAnswer: ["New York (Harbor)", "Liberty Island"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/95.mp3",
-  // },
-  // {
-  //   id: 96,
-  //   question: "Why does the flag have 13 stripes?",
-  //   correctAnswer: [
-  //     "Because there were 13 original colonies",
-  //     "Because the stripes represent the original colonies",
-  //   ],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/96.mp3",
-  // },
-  // {
-  //   id: 97,
-  //   question: "Why does the flag have 50 stars?",
-  //   correctAnswer: [
-  //     "Because there is one star for each state",
-  //     "Because each star represents a state",
-  //     "Because there are 50 states",
-  //   ],
-  //   questionAudioLength: 10,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/97.mp3",
-  // },
-  // {
-  //   id: 98,
-  //   question: "What is the name of the national anthem?",
-  //   correctAnswer: ["The Star-Spangled Banner"],
-  //   questionAudioLength: 5500,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/98.mp3",
-  // },
-  // {
-  //   id: 99,
-  //   question: "When do we celebrate Independence Day?",
-  //   correctAnswer: ["July 4"],
-  //   questionAudioLength: 5000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/99.mp3",
-  // },
-  // {
-  //   id: 100,
-  //   question: "Name two national U.S. holidays.",
-  //   correctAnswer: [
-  //     "New Year's Day",
-  //     "Martin Luther King, Jr. Day",
-  //     "Presidents' Day",
-  //     "Memorial Day",
-  //     "Independence Day",
-  //     "Labor Day",
-  //     "Columbus Day",
-  //     "Veterans Day",
-  //     "Thanksgiving",
-  //     "Christmas",
-  //   ],
-  //   questionAudioLength: 6000,
-  //   questionAnswerAudio:
-  //     "https://quizstorageaccount.blob.core.windows.net/uscis/100.mp3",
-  // },
+  {
+    id: 87,
+    question: "Name one American Indian tribe in the United States.",
+    correctAnswer: [
+      "Cherokee",
+      "Navajo",
+      "Sioux",
+      "Chippewa",
+      "Choctaw",
+      "Pueblo",
+      "Apache",
+      "Iroquois",
+      "Creek",
+      "Blackfeet",
+      "Seminole",
+      "Cheyenne",
+      "Arawak",
+      "Shawnee",
+      "Mohegan",
+      "Huron",
+      "Oneida",
+      "Lakota",
+      "Crow",
+      "Teton",
+      "Hopi",
+      "Inuit",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/87.mp3",
+  },
+  {
+    id: 88,
+    question: "Name one of the two longest rivers in the United States.",
+    correctAnswer: ["Missouri (River)", "Mississippi (River)"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/88.mp3",
+  },
+  {
+    id: 89,
+    question: "What ocean is on the West Coast of the United States?",
+    correctAnswer: ["Pacific (Ocean)"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/89.mp3",
+  },
+  {
+    id: 90,
+    question: "What ocean is on the East Coast of the United States?",
+    correctAnswer: ["Atlantic (Ocean)"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/90.mp3",
+  },
+  {
+    id: 91,
+    question: "Name one U.S. territory.",
+    correctAnswer: [
+      "Puerto Rico",
+      "U.S. Virgin Islands",
+      "American Samoa",
+      "Northern Mariana Islands",
+      "Guam",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/91.mp3",
+  },
+  {
+    id: 92,
+    question: "Name one state that borders Canada.",
+    correctAnswer: [
+      "Maine",
+      "New Hampshire",
+      "Vermont",
+      "New York",
+      "Pennsylvania",
+      "Ohio",
+      "Michigan",
+      "Minnesota",
+      "North Dakota",
+      "Montana",
+      "Idaho",
+      "Washington",
+      "Alaska",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/92.mp3",
+  },
+  {
+    id: 93,
+    question: "Name one state that borders Mexico.",
+    correctAnswer: ["California", "Arizona", "New Mexico", "Texas"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/93.mp3",
+  },
+  {
+    id: 94,
+    question: "What is the capital of the United States?",
+    correctAnswer: ["Washington, D.C."],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/94.mp3",
+  },
+  {
+    id: 95,
+    question: "Where is the Statue of Liberty?",
+    correctAnswer: ["New York (Harbor)", "Liberty Island"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/95.mp3",
+  },
+  {
+    id: 96,
+    question: "Why does the flag have 13 stripes?",
+    correctAnswer: [
+      "Because there were 13 original colonies",
+      "Because the stripes represent the original colonies",
+    ],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/96.mp3",
+  },
+  {
+    id: 97,
+    question: "Why does the flag have 50 stars?",
+    correctAnswer: [
+      "Because there is one star for each state",
+      "Because each star represents a state",
+      "Because there are 50 states",
+    ],
+    questionAudioLength: 10,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/97.mp3",
+  },
+  {
+    id: 98,
+    question: "What is the name of the national anthem?",
+    correctAnswer: ["The Star-Spangled Banner"],
+    questionAudioLength: 5500,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/98.mp3",
+  },
+  {
+    id: 99,
+    question: "When do we celebrate Independence Day?",
+    correctAnswer: ["July 4"],
+    questionAudioLength: 5000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/99.mp3",
+  },
+  {
+    id: 100,
+    question: "Name two national U.S. holidays.",
+    correctAnswer: [
+      "New Year's Day",
+      "Martin Luther King, Jr. Day",
+      "Presidents' Day",
+      "Memorial Day",
+      "Independence Day",
+      "Labor Day",
+      "Columbus Day",
+      "Veterans Day",
+      "Thanksgiving",
+      "Christmas",
+    ],
+    questionAudioLength: 6000,
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/100.mp3",
+  },
 ];
 
 export default usCitizenshipQuestions;
