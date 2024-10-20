@@ -49,8 +49,9 @@
   display: flex;
   justify-content: center;
   align-items: center; /* Center vertically */
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
 }
 
 .answerDisplayContainer {
@@ -69,7 +70,7 @@
     20px,
     auto
   ); /* Control the height of individual grid items */
-  padding: 2rem 8rem;
+  padding: 2rem 6rem;
   text-align: left;
 }
 
@@ -79,7 +80,7 @@
   height: 60%;
   font-weight: normal; /* Removed duplicate font-weight */
   overflow: hidden;
-  padding: 8rem 2rem 8rem 2rem;
+  padding: 8rem;
   display: flex;
   justify-content: center;
   display: flex;
