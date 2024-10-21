@@ -59,7 +59,7 @@ function AnswerDisplay({
     <div className="answerDisplayContainer">
       <div
         className={`${
-          usCitizenshipQuestions[currentQuestion].correctAnswer.length > 6
+          usCitizenshipQuestions[currentQuestion].correctAnswer.length > 4
             ? "answerDisplay"
             : "answerDisplaySingle"
         }`}
