@@ -66,17 +66,17 @@
 }
 
 .answerDisplay {
-  font-size: 2rem;
+  font-size: 1.5rem;
   /* height: 60%; */
   font-weight: normal; /* Removed duplicate font-weight */
   overflow: hidden;
   display: grid; /* Use CSS Grid */
-  grid-template-columns: repeat(4, 1fr); /* Two columns */
+  grid-template-columns: repeat(3, 1fr); /* Two columns */
   grid-auto-rows: minmax(
     20px,
     auto
   ); /* Control the height of individual grid items */
-  padding: 2rem 6rem;
+  padding: 1rem 1rem;
   text-align: left;
 }
 
