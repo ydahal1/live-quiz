@@ -453,7 +453,7 @@ const usCitizenshipQuestions = [
     id: 47,
     question:
       "What is the name of the Speaker of the House of Representatives now?",
-    correctAnswer: ["Nancy Pelosi"],
+    correctAnswer: ["Mike Johnson"],
     questionAudioLength: 7000,
     questionAnswerAudio:
       "https://quizstorageaccount.blob.core.windows.net/uscis/47.mp3",
