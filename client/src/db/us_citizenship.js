@@ -751,7 +751,7 @@ const usCitizenshipQuestions = [
   {
     id: 74,
     question: "Name one problem that led to the Civil War.",
-    correctAnswer: ["slavery", "economic reasons", "states’ rights"],
+    correctAnswer: ["Slavery", "Economic reasons", "States’ rights"],
     questionAudioLength: 5500,
     questionAnswerAudio:
       "https://quizstorageaccount.blob.core.windows.net/uscis/74.mp3",
