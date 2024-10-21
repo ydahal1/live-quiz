@@ -510,7 +510,8 @@ const usCitizenshipQuestions = [
       "What do we show loyalty to when we say the Pledge of Allegiance?",
     correctAnswer: ["The United States", "The flag"],
     questionAudioLength: 5500,
-    questionAnswerAudio: "",
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/52.mp3",
   },
   {
     id: 53,
@@ -532,7 +533,8 @@ const usCitizenshipQuestions = [
     question: "How old do citizens have to be to vote for President?",
     correctAnswer: ["Eighteen (18) and older"],
     questionAudioLength: 5500,
-    questionAnswerAudio: "",
+    questionAnswerAudio:
+      "https://quizstorageaccount.blob.core.windows.net/uscis/54.mp3",
   },
   {
     id: 55,
